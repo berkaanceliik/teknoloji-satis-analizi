@@ -6,7 +6,7 @@ import seaborn as sns
 import plotly.express as px
 import plotly.io as pio
 
-# Görsel stil ayarları
+
 sns.set_style("whitegrid")
 plt.rcParams["figure.figsize"] = (10, 5)
 pio.renderers.default = "notebook"
@@ -25,14 +25,14 @@ print("Kütüphaneler başarıyla yüklendi!")
 # Bu çalışma kapsamında, Türkiye'nin üç büyük şehrinde (İstanbul, Ankara, İzmir) faaliyet gösteren bir teknoloji mağaza zincirinin 300 satırlık müşteri harcama verisi incelenmiştir. Analizin amacı, müşteri demografisi (yaş, cinsiyet) ile alışveriş tercihleri (ürün kategorisi, harcama miktarı, ödeme yöntemi) arasındaki ilişkileri ortaya koyarak mağazanın satış stratejilerine katkı sağlamaktır.
 
 # %%
-# Veriyi yükleme
+
 df = pd.read_csv("data/veri_seti.csv")
 
-# İlk 5 satırı gösterme
+
 print("--- Veri Setinin İlk 5 Satırı ---")
 print(df.head())
 
-# Veri boyutu kontrolü
+
 print("\n--- Veri Boyutu ---")
 print(f"Satır Sayısı: {df.shape[0]}, Sütun Sayısı: {df.shape[1]}")
 
@@ -41,19 +41,19 @@ print(f"Satır Sayısı: {df.shape[0]}, Sütun Sayısı: {df.shape[1]}")
 # Bu bölümde veri setinde yer alan sayısal verilerin genel dağılımı ile kategorik değişkenlerin frekansları incelenmiştir.
 
 # %%
-# Sayısal değişkenlerin genel istatistik özeti
+
 print("--- Sayısal Değişkenlerin İstatistiki Özeti ---")
 print(df.describe())
 
-# Kategorik değişkenlerin dağılımı
+
 print("\n--- Şehirlere Göre Müşteri Dağılımı ---")
 print(df["Sehir"].value_counts())
 
-# En çok tercih edilen ürün kategorileri
+
 print("\n--- En Çok Tercih Edilen Ürün Kategorileri ---")
 print(df["Urun_Kategorisi"].value_counts())
 
-# Ödeme yöntemi tercih oranları
+
 print("\n--- Ödeme Yöntemi Tercih Oranları (%) ---")
 print(df["Odeme_Yontemi"].value_counts(normalize=True) * 100)
 
@@ -93,19 +93,28 @@ plt.title("Değişkenler Arası Korelasyon Matrisi")
 plt.show()
 
 # GRAFİK 5: Yaş ve Toplam Harcama İlişkisi (Etkileşimli Scatter - Plotly)
-fig = px.scatter(df, x="Yas", y="Toplam_Harcama", color="Urun_Kategorisi",
-                 title="Müşteri Yaşı ve Toplam Harcama İlişkisi (Etkileşimli Plotly)",
-                 labels={"Yas": "Müşteri Yaşı", "Toplam_Harcama": "Harcama Tutarı (TL)"})
+import plotly.express as px
+import plotly.io as pio
+
+pio.renderers.default = "vscode"
+
+fig = px.scatter(df, 
+                 x="Yas", 
+                 y="Toplam_Harcama", 
+                 color="Urun_Kategorisi",
+                 title="Musteri Yasi ve Toplam Harcama Iliskisi (Etkilesimli Plotly)",
+                 labels={"Yas": "Musteri Yasi", "Toplam_Harcama": "Harcama Tutari (TL)"})
+
 fig.show()
 
 # %% [markdown]
 # ### Grafik Yorumları ve Bulgular
 # 
-# * [cite_start]**Grafik 1 (Histogram) Yorumu:** Mağazadan alışveriş yapan müşterilerin yaş dağılımı incelendiğinde, genç ve orta yaş grubunun yoğunlukta olduğu görülmektedir[cite: 28].
-# * [cite_start]**Grafik 2 (Boxplot) Yorumu:** Harcama kutu grafiği, harcamaların genel olarak belirli bir bantta toplandığını ancak yüksek fiyatlı Bilgisayar ve Beyaz Eşya gibi ürünler sebebiyle sağa doğru uzayan bir dağılım olduğunu göstermektedir[cite: 29].
+# * **Grafik 1 (Histogram) Yorumu:** Mağazadan alışveriş yapan müşterilerin yaş dağılımı incelendiğinde, genç ve orta yaş grubunun yoğunlukta olduğu görülmektedir[cite: 28].
+# * **Grafik 2 (Boxplot) Yorumu:** Harcama kutu grafiği, harcamaların genel olarak belirli bir bantta toplandığını ancak yüksek fiyatlı Bilgisayar ve Beyaz Eşya gibi ürünler sebebiyle sağa doğru uzayan bir dağılım olduğunu göstermektedir[cite: 29].
 # * **Grafik 3 (Bar Plot) Yorumu:** Şehir bazlı memnuniyet oranlarında İstanbul, Ankara ve İzmir şubelerinin birbirine oldukça yakın ve yüksek (4.00 üzeri) skorlar aldığı gözlemlenmiştir.
 # * **Grafik 4 (Heatmap) Yorumu:** Korelasyon matrisinde Yaş ile Memnuniyeti arasında güçlü bir doğrusal bağ olmasa da, Birim Fiyat ile Toplam Harcama arasında beklendiği gibi pozitif ve çok güçlü bir ilişki vardır.
-# * [cite_start]**Grafik 5 (Scatter) Yorumu:** Etkileşimli grafikte görüldüğü üzere, yüksek bütçeli harcamalar (Bilgisayar ve Beyaz Eşya) her yaş grubundan müşteri tarafından yapılırken, Aksesuar ve Tablet gibi ürünler daha düşük bütçeli harcamaları oluşturmaktadır[cite: 23].
+# * **Grafik 5 (Scatter) Yorumu:** Etkileşimli grafikte görüldüğü üzere, yüksek bütçeli harcamalar (Bilgisayar ve Beyaz Eşya) her yaş grubundan müşteri tarafından yapılırken, Aksesuar ve Tablet gibi ürünler daha düşük bütçeli harcamaları oluşturmaktadır[cite: 23].
 # 
 # ### 📌 Önemli Sonuçlar (Yönetici Özeti)
 # 1. Mağazada en yüksek ciro getiren ve birim fiyatı en yüksek olan ürün grubu **Bilgisayar** ve **Beyaz Eşya** kategorileridir.
