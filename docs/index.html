@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>finalodev</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>index</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7800,7 +7800,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
@@ -7810,7 +7810,7 @@ a.anchor-link {
 <span class="kn">import</span><span class="w"> </span><span class="nn">plotly.express</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">px</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">plotly.io</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pio</span>
 
-<span class="c1"># Görsel stil ayarları</span>
+
 <span class="n">sns</span><span class="o">.</span><span class="n">set_style</span><span class="p">(</span><span class="s2">"whitegrid"</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s2">"figure.figsize"</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
 <span class="n">pio</span><span class="o">.</span><span class="n">renderers</span><span class="o">.</span><span class="n">default</span> <span class="o">=</span> <span class="s2">"notebook"</span>
@@ -7854,17 +7854,16 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Veriyi yükleme</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"data/veri_seti.csv"</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"data/veri_seti.csv"</span><span class="p">)</span>
 
-<span class="c1"># İlk 5 satırı gösterme</span>
+
 <span class="nb">print</span><span class="p">(</span><span class="s2">"--- Veri Setinin İlk 5 Satırı ---"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
 
-<span class="c1"># Veri boyutu kontrolü</span>
+
 <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">--- Veri Boyutu ---"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Satır Sayısı: </span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">, Sütun Sayısı: </span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
@@ -7917,22 +7916,21 @@ Satır Sayısı: 300, Sütun Sayısı: 10
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Sayısal değişkenlerin genel istatistik özeti</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"--- Sayısal Değişkenlerin İstatistiki Özeti ---"</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"--- Sayısal Değişkenlerin İstatistiki Özeti ---"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">())</span>
 
-<span class="c1"># Kategorik değişkenlerin dağılımı</span>
+
 <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">--- Şehirlere Göre Müşteri Dağılımı ---"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">"Sehir"</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">())</span>
 
-<span class="c1"># En çok tercih edilen ürün kategorileri</span>
+
 <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">--- En Çok Tercih Edilen Ürün Kategorileri ---"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">"Urun_Kategorisi"</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">())</span>
 
-<span class="c1"># Ödeme yöntemi tercih oranları</span>
+
 <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">--- Ödeme Yöntemi Tercih Oranları (%) ---"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">"Odeme_Yontemi"</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">normalize</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span>
 </pre></div>
@@ -8013,7 +8011,7 @@ Name: proportion, dtype: float64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># GRAFİK 1: Yaş Dağılımı (Histogram)</span>
@@ -8047,9 +8045,18 @@ Name: proportion, dtype: float64
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 
 <span class="c1"># GRAFİK 5: Yaş ve Toplam Harcama İlişkisi (Etkileşimli Scatter - Plotly)</span>
-<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s2">"Yas"</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">"Toplam_Harcama"</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">"Urun_Kategorisi"</span><span class="p">,</span>
-                 <span class="n">title</span><span class="o">=</span><span class="s2">"Müşteri Yaşı ve Toplam Harcama İlişkisi (Etkileşimli Plotly)"</span><span class="p">,</span>
-                 <span class="n">labels</span><span class="o">=</span><span class="p">{</span><span class="s2">"Yas"</span><span class="p">:</span> <span class="s2">"Müşteri Yaşı"</span><span class="p">,</span> <span class="s2">"Toplam_Harcama"</span><span class="p">:</span> <span class="s2">"Harcama Tutarı (TL)"</span><span class="p">})</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">plotly.express</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">px</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">plotly.io</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pio</span>
+
+<span class="n">pio</span><span class="o">.</span><span class="n">renderers</span><span class="o">.</span><span class="n">default</span> <span class="o">=</span> <span class="s2">"vscode"</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> 
+                 <span class="n">x</span><span class="o">=</span><span class="s2">"Yas"</span><span class="p">,</span> 
+                 <span class="n">y</span><span class="o">=</span><span class="s2">"Toplam_Harcama"</span><span class="p">,</span> 
+                 <span class="n">color</span><span class="o">=</span><span class="s2">"Urun_Kategorisi"</span><span class="p">,</span>
+                 <span class="n">title</span><span class="o">=</span><span class="s2">"Musteri Yasi ve Toplam Harcama Iliskisi (Etkilesimli Plotly)"</span><span class="p">,</span>
+                 <span class="n">labels</span><span class="o">=</span><span class="p">{</span><span class="s2">"Yas"</span><span class="p">:</span> <span class="s2">"Musteri Yasi"</span><span class="p">,</span> <span class="s2">"Toplam_Harcama"</span><span class="p">:</span> <span class="s2">"Harcama Tutari (TL)"</span><span class="p">})</span>
+
 <span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -8086,33 +8093,6 @@ Name: proportion, dtype: float64
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
-<div style="height:525px; width:100%;"> <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script>if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script> <div class="plotly-graph-div" id="73402c29-c128-4601-ba61-c3d4dc15cc10" style="height:100%; width:100%;"></div> <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("73402c29-c128-4601-ba61-c3d4dc15cc10")) {                    Plotly.newPlot(                        "73402c29-c128-4601-ba61-c3d4dc15cc10",                        [{"hovertemplate":"Urun_Kategorisi=Aksesuar\u003cbr\u003eM\u00fc\u015fteri Ya\u015f\u0131=%{x}\u003cbr\u003eHarcama Tutar\u0131 (TL)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Aksesuar","marker":{"color":"#636efa","symbol":"circle"},"mode":"markers","name":"Aksesuar","orientation":"v","showlegend":true,"x":{"dtype":"i1","bdata":"GBMVFhkfIjMlOyEaKCUvIhMtIDMeNSEiHBcdGixAGRQWFxogIzQmPCIbKSYw"},"xaxis":"x","y":{"dtype":"i2","bdata":"hAMaBLAE6AMgA4QD6AOwBBQF8AVIA3IGwAOSBHgFEATYBGQFiATOBNgEwAMkBCgF\u002fAMoBTwFoAWcBKAFNAPAA9gEiAQ0A8ADEATsBFAFGAZwA64G1AOwBKAF"},"yaxis":"y","type":"scatter"},{"hovertemplate":"Urun_Kategorisi=Bilgisayar\u003cbr\u003eM\u00fc\u015fteri Ya\u015f\u0131=%{x}\u003cbr\u003eHarcama Tutar\u0131 (TL)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Bilgisayar","marker":{"color":"#EF553B","symbol":"circle"},"mode":"markers","name":"Bilgisayar","orientation":"v","showlegend":true,"x":{"dtype":"i1","bdata":"LTcpJTUvGCokLz0gMjwyJBspEzIbMDI3PDMjOB8sOComNjAZKyUwPiEzPQ=="},"xaxis":"x","y":{"dtype":"i2","bdata":"8FWoYQhSzFvAXZBl\u002fFPkV3hp2Fm0XyhVhGcQWYhe2FmcY8BdVFb4XERhcGI8WhhgyGSAV1xdJF4AZBxXcGLQUlxdiF5YZihVEFlAaqBafGDwVUxo2Fk="},"yaxis":"y","type":"scatter"},{"hovertemplate":"Urun_Kategorisi=Telefon\u003cbr\u003eM\u00fc\u015fteri Ya\u015f\u0131=%{x}\u003cbr\u003eHarcama Tutar\u0131 (TL)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Telefon","marker":{"color":"#00cc96","symbol":"circle"},"mode":"markers","name":"Telefon","orientation":"v","showlegend":true,"x":{"dtype":"i1","bdata":"IBweHToxOSc8FxM3OhwdGjk8Ox06KxMVNTQuPyEbIR0fHjsyOig9GBQ4Ox0eGw=="},"xaxis":"x","y":{"dtype":"i2","bdata":"mDqoYYA+yDJoQrA2UEa8NDhKwF2kOHRAjDxMNjBD0DkEQrg9kDPkPlxEeDdgO4Q1EEDMQvw6NDqsPxQ3YDvIZHRAvDQwQ3g3GEeENQBLUF9sOTxBVD0UN\u002fhDNDo="},"yaxis":"y","type":"scatter"},{"hovertemplate":"Urun_Kategorisi=Tablet\u003cbr\u003eM\u00fc\u015fteri Ya\u015f\u0131=%{x}\u003cbr\u003eHarcama Tutar\u0131 (TL)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Tablet","marker":{"color":"#ab63fa","symbol":"circle"},"mode":"markers","name":"Tablet","orientation":"v","showlegend":true,"x":{"dtype":"i1","bdata":"MjAhGhUrFi5AKxY\u002fODUcJzEsLxlAOywxGBMyNDMxIhsWLBcvQSwXQDk2"},"xaxis":"x","y":{"dtype":"i2","bdata":"QB9MHSgjIDU0ISAc3B4IIBwl6DVgIrwbbCCwHcQipB+wNvAj0CB4HvwhCDmYIRQejCPoNQggeB6kH7Ad8CPoNfwh6BykH9Ag5CV4NygjIBw0IRQe"},"yaxis":"y","type":"scatter"},{"hovertemplate":"Urun_Kategorisi=Beyaz Esya\u003cbr\u003eM\u00fc\u015fteri Ya\u015f\u0131=%{x}\u003cbr\u003eHarcama Tutar\u0131 (TL)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Beyaz Esya","marker":{"color":"#FFA15A","symbol":"circle"},"mode":"markers","name":"Beyaz Esya","orientation":"v","showlegend":true,"x":{"dtype":"i1","bdata":"PT80PCg+ITYyNCITKSMrNDg3Gj0fGBorKSo8Kz5ANT0pPyI3MzUjFCok"},"xaxis":"x","y":{"dtype":"i2","bdata":"UEYIUixM8FVcRNhZwF1ESPxTIE7kVzhK+FwYRxRQCFK4VthZAEsoVehO1ElIWGxSvE2wT8xbKFVESPxTvE3kV+xFoFqIXnBJKFXoTqxYAEvAXeBH"},"yaxis":"y","type":"scatter"},{"hovertemplate":"Urun_Kategorisi=Ses Sistemleri\u003cbr\u003eM\u00fc\u015fteri Ya\u015f\u0131=%{x}\u003cbr\u003eHarcama Tutar\u0131 (TL)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Ses Sistemleri","marker":{"color":"#19d3f3","symbol":"circle"},"mode":"markers","name":"Ses Sistemleri","orientation":"v","showlegend":true,"x":{"dtype":"i1","bdata":"IxsTFxw4HSkmHi0YFRUwIRg\u002fFjg5PhMgJS8TJBwUGB05HionHy4ZFg=="},"xaxis":"x","y":{"dtype":"i2","bdata":"YAm4C4AMEA40CKwN8ArYDigKHAwwEUgNVAvECYAM5AyYCIwK5AxIDWgQ8Ao8D4AM+BG4C3QOxAmADOQM2A6YCBAOVAugD4wKgAz4ERAOhgs="},"yaxis":"y","type":"scatter"},{"hovertemplate":"Urun_Kategorisi=Televizyon\u003cbr\u003eM\u00fc\u015fteri Ya\u015f\u0131=%{x}\u003cbr\u003eHarcama Tutar\u0131 (TL)=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"Televizyon","marker":{"color":"#FF6692","symbol":"circle"},"mode":"markers","name":"Televizyon","orientation":"v","showlegend":true,"x":{"dtype":"i1","bdata":"KiYuLCQTMB8bFTEzISw+FxUlIyYqKSMkOzYVJisnLy0lFDEgHBYyNCIt"},"xaxis":"x","y":{"dtype":"i2","bdata":"pDh0QOg1mDqAPuAujDywNsgydEA0Org9eDe8NEg\u002fADKwNmA7TDZsORw+LDMIOcQ7FDdIP\u002fQz0Dk0OgRCTDZgO0g\u002fqC9UPXg3kDM8Qfw6gD5AOIQ1"},"yaxis":"y","type":"scatter"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"M\u00fc\u015fteri Ya\u015f\u0131"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Harcama Tutar\u0131 (TL)"}},"legend":{"title":{"text":"Urun_Kategorisi"},"tracegroupgap":0},"title":{"text":"M\u00fc\u015fteri Ya\u015f\u0131 ve Toplam Harcama \u0130li\u015fkisi (Etkile\u015fimli Plotly)"}},                        {"responsive": true}                    ).then(function(){
-                            
-var gd = document.getElementById('73402c29-c128-4601-ba61-c3d4dc15cc10');
-var x = new MutationObserver(function (mutations, observer) {{
-        var display = window.getComputedStyle(gd).display;
-        if (!display || display === 'none') {{
-            console.log([gd, 'removed!']);
-            Plotly.purge(gd);
-            observer.disconnect();
-        }}
-}});
-
-// Listen for the removal of the full notebook cells
-var notebookContainer = gd.closest('#notebook-container');
-if (notebookContainer) {{
-    x.observe(notebookContainer, {childList: true});
-}}
-
-// Listen for the clearing of the current output cell
-var outputEl = gd.closest('.output');
-if (outputEl) {{
-    x.observe(outputEl, {childList: true});
-}}
-
-                        })                };            </script> </div>
-</div>
 </div>
 </div>
 </div>
@@ -8124,17 +8104,27 @@ if (outputEl) {{
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Grafik-Yorumlar%C4%B1-ve-Bulgular">Grafik Yorumları ve Bulgular<a class="anchor-link" href="#Grafik-Yorumlar%C4%B1-ve-Bulgular">¶</a></h3><ul>
-<li>[cite_start]<strong>Grafik 1 (Histogram) Yorumu:</strong> Mağazadan alışveriş yapan müşterilerin yaş dağılımı incelendiğinde, genç ve orta yaş grubunun yoğunlukta olduğu görülmektedir[cite: 28].</li>
-<li>[cite_start]<strong>Grafik 2 (Boxplot) Yorumu:</strong> Harcama kutu grafiği, harcamaların genel olarak belirli bir bantta toplandığını ancak yüksek fiyatlı Bilgisayar ve Beyaz Eşya gibi ürünler sebebiyle sağa doğru uzayan bir dağılım olduğunu göstermektedir[cite: 29].</li>
+<li><strong>Grafik 1 (Histogram) Yorumu:</strong> Mağazadan alışveriş yapan müşterilerin yaş dağılımı incelendiğinde, genç ve orta yaş grubunun yoğunlukta olduğu görülmektedir[cite: 28].</li>
+<li><strong>Grafik 2 (Boxplot) Yorumu:</strong> Harcama kutu grafiği, harcamaların genel olarak belirli bir bantta toplandığını ancak yüksek fiyatlı Bilgisayar ve Beyaz Eşya gibi ürünler sebebiyle sağa doğru uzayan bir dağılım olduğunu göstermektedir.</li>
 <li><strong>Grafik 3 (Bar Plot) Yorumu:</strong> Şehir bazlı memnuniyet oranlarında İstanbul, Ankara ve İzmir şubelerinin birbirine oldukça yakın ve yüksek (4.00 üzeri) skorlar aldığı gözlemlenmiştir.</li>
 <li><strong>Grafik 4 (Heatmap) Yorumu:</strong> Korelasyon matrisinde Yaş ile Memnuniyeti arasında güçlü bir doğrusal bağ olmasa da, Birim Fiyat ile Toplam Harcama arasında beklendiği gibi pozitif ve çok güçlü bir ilişki vardır.</li>
-<li>[cite_start]<strong>Grafik 5 (Scatter) Yorumu:</strong> Etkileşimli grafikte görüldüğü üzere, yüksek bütçeli harcamalar (Bilgisayar ve Beyaz Eşya) her yaş grubundan müşteri tarafından yapılırken, Aksesuar ve Tablet gibi ürünler daha düşük bütçeli harcamaları oluşturmaktadır[cite: 23].</li>
+<li><strong>Grafik 5 (Scatter) Yorumu:</strong> Etkileşimli grafikte görüldüğü üzere, yüksek bütçeli harcamalar (Bilgisayar ve Beyaz Eşya) her yaş grubundan müşteri tarafından yapılırken, Aksesuar ve Tablet gibi ürünler daha düşük bütçeli harcamaları oluşturmaktadır.</li>
 </ul>
-<h3 id="%F0%9F%93%8C-%C3%96nemli-Sonu%C3%A7lar-(Y%C3%B6netici-%C3%96zeti)">📌 Önemli Sonuçlar (Yönetici Özeti)<a class="anchor-link" href="#%F0%9F%93%8C-%C3%96nemli-Sonu%C3%A7lar-(Y%C3%B6netici-%C3%96zeti)">¶</a></h3><ol>
+<h3 id="%F0%9F%93%8C-%C3%96nemli-Sonu%C3%A7lar">📌 Önemli Sonuçlar<a class="anchor-link" href="#%F0%9F%93%8C-%C3%96nemli-Sonu%C3%A7lar">¶</a></h3><ol>
 <li>Mağazada en yüksek ciro getiren ve birim fiyatı en yüksek olan ürün grubu <strong>Bilgisayar</strong> ve <strong>Beyaz Eşya</strong> kategorileridir.</li>
 <li>Müşterilerin en çok kullandığı ödeme yöntemi <strong>Kredi Kartı</strong> ve <strong>E-Cüzdan</strong> uygulamalarıdır; nakit kullanımı daha arka plandadır.</li>
 <li>Genel müşteri memnuniyeti şubeler genelinde oldukça yüksek olup, sadık bir müşteri kitlesine işaret etmektedir.</li>
 </ol>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5e52e81b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 </div>
 </div>
 </div>
