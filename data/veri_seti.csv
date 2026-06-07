@@ -1,0 +1,301 @@
+Musteri_ID,Sehir,Cinsiyet,Yas,Urun_Kategorisi,Birim_Fiyat,Miktar,Toplam_Harcama,Odeme_Yontemi,Musteri_Memnuniyeti
+M001,Istanbul,Kadin,24,Aksesuar,450,2,900,Kredi Karti,5
+M002,Ankara,Erkek,45,Bilgisayar,22000,1,22000,Nakit,4
+M003,Izmir,Kadin,32,Telefon,15000,1,15000,E-Cuzdan,3
+M004,Istanbul,Erkek,50,Tablet,8000,1,8000,E-Cuzdan,4
+M005,Ankara,Erkek,19,Aksesuar,350,3,1050,Kredi Karti,5
+M006,Izmir,Kadin,61,Beyaz Esya,18000,1,18000,Nakit,4
+M007,Istanbul,Kadin,28,Telefon,12500,2,25000,E-Cuzdan,5
+M008,Ankara,Erkek,35,Ses Sistemleri,2400,1,2400,Kredi Karti,2
+M009,Istanbul,Kadin,42,Televizyon,14500,1,14500,Nakit,4
+M010,Izmir,Kadin,55,Bilgisayar,25000,1,25000,Kredi Karti,3
+M011,Ankara,Kadin,21,Aksesuar,600,2,1200,E-Cuzdan,4
+M012,Istanbul,Erkek,30,Telefon,16000,1,16000,Nakit,5
+M013,Izmir,Kadin,48,Tablet,7500,1,7500,E-Cuzdan,4
+M014,Istanbul,Erkek,63,Beyaz Esya,21000,1,21000,Kredi Karti,1
+M015,Ankara,Kadin,27,Ses Sistemleri,1500,2,3000,Nakit,4
+M016,Izmir,Erkek,38,Televizyon,16500,1,16500,Kredi Karti,5
+M017,Istanbul,Kadin,22,Aksesuar,250,4,1000,E-Cuzdan,4
+M018,Ankara,Erkek,41,Bilgisayar,21000,1,21000,Nakit,3
+M019,Izmir,Erkek,29,Telefon,13000,1,13000,E-Cuzdan,4
+M020,Istanbul,Kadin,33,Tablet,9000,1,9000,Kredi Karti,5
+M021,Ankara,Erkek,52,Beyaz Esya,19500,1,19500,Nakit,2
+M022,Istanbul,Erkek,46,Televizyon,13800,1,13800,E-Cuzdan,4
+M023,Izmir,Kadin,25,Aksesuar,800,1,800,Kredi Karti,5
+M024,Ankara,Kadin,58,Telefon,17000,1,17000,Nakit,4
+M025,Istanbul,Erkek,37,Bilgisayar,23500,1,23500,E-Cuzdan,3
+M026,Izmir,Erkek,19,Ses Sistemleri,3200,1,3200,Nakit,5
+M027,Istanbul,Kadin,60,Beyaz Esya,22000,1,22000,Kredi Karti,4
+M028,Ankara,Kadin,26,Tablet,6800,2,13600,E-Cuzdan,4
+M029,Izmir,Erkek,44,Televizyon,15000,1,15000,Nakit,5
+M030,Istanbul,Kadin,31,Aksesuar,300,3,900,Kredi Karti,3
+M031,Ankara,Kadin,49,Telefon,14000,1,14000,E-Cuzdan,2
+M032,Izmir,Erkek,53,Bilgisayar,24000,1,24000,Nakit,4
+M033,Istanbul,Erkek,23,Ses Sistemleri,1800,2,3600,Kredi Karti,5
+M034,Ankara,Kadin,36,Televizyon,16000,1,16000,E-Cuzdan,4
+M035,Izmir,Erkek,40,Beyaz Esya,17500,1,17500,Nakit,4
+M036,Istanbul,Kadin,21,Tablet,8500,1,8500,Kredi Karti,5
+M037,Ankara,Erkek,57,Telefon,18000,1,18000,E-Cuzdan,3
+M038,Izmir,Kadin,34,Aksesuar,500,2,1000,Nakit,4
+M039,Istanbul,Erkek,47,Bilgisayar,26000,1,26000,Kredi Karti,5
+M040,Ankara,Kadin,28,Ses Sistemleri,2100,1,2100,E-Cuzdan,4
+M041,Izmir,Erkek,62,Beyaz Esya,23000,1,23000,Nakit,2
+M042,Istanbul,Kadin,19,Televizyon,12000,1,12000,Kredi Karti,5
+M043,Ankara,Erkek,43,Tablet,7200,1,7200,E-Cuzdan,4
+M044,Izmir,Kadin,39,Telefon,13500,1,13500,Nakit,3
+M045,Istanbul,Erkek,51,Aksesuar,400,3,1200,Kredi Karti,4
+M046,Ankara,Kadin,24,Bilgisayar,21500,1,21500,E-Cuzdan,5
+M047,Izmir,Erkek,56,Ses Sistemleri,3500,1,3500,Nakit,4
+M048,Istanbul,Kadin,33,Beyaz Esya,24000,1,24000,Kredi Karti,5
+M049,Ankara,Erkek,48,Televizyon,15500,1,15500,E-Cuzdan,3
+M050,Izmir,Kadin,22,Tablet,7900,1,7900,Nakit,4
+M051,Istanbul,Erkek,60,Telefon,19000,1,19000,Kredi Karti,2
+M052,Ankara,Kadin,37,Aksesuar,650,2,1300,E-Cuzdan,5
+M053,Izmir,Erkek,42,Bilgisayar,22500,1,22500,Nakit,4
+M054,Istanbul,Kadin,29,Ses Sistemleri,2800,1,2800,Kredi Karti,4
+M055,Ankara,Erkek,54,Beyaz Esya,18500,1,18500,E-Cuzdan,3
+M056,Izmir,Kadin,31,Televizyon,14000,1,14000,Nakit,5
+M057,Istanbul,Erkek,46,Tablet,8200,1,8200,Kredi Karti,4
+M058,Ankara,Kadin,23,Telefon,12000,2,24000,E-Cuzdan,5
+M059,Izmir,Erkek,59,Aksesuar,380,4,1520,Nakit,3
+M060,Istanbul,Kadin,36,Bilgisayar,27000,1,27000,Kredi Karti,4
+M061,Ankara,Erkek,41,Ses Sistemleri,1900,2,3800,E-Cuzdan,4
+M062,Izmir,Kadin,50,Beyaz Esya,21500,1,21500,Nakit,5
+M063,Istanbul,Erkek,27,Televizyon,13000,1,13000,Kredi Karti,2
+M064,Ankara,Kadin,64,Tablet,9500,1,9500,E-Cuzdan,4
+M065,Izmir,Erkek,19,Telefon,14500,1,14500,Nakit,5
+M066,Istanbul,Kadin,33,Aksesuar,420,2,840,Kredi Karti,4
+M067,Ankara,Erkek,47,Bilgisayar,23000,1,23000,E-Cuzdan,3
+M068,Izmir,Kadin,38,Ses Sistemleri,2600,1,2600,Nakit,4
+M069,Istanbul,Erkek,52,Beyaz Esya,20000,1,20000,Kredi Karti,5
+M070,Ankara,Kadin,21,Televizyon,16500,1,16500,E-Cuzdan,4
+M071,Izmir,Erkek,43,Tablet,6900,2,13800,Nakit,3
+M072,Istanbul,Kadin,55,Telefon,16500,1,16500,Kredi Karti,5
+M073,Ankara,Erkek,26,Aksesuar,550,3,1650,E-Cuzdan,4
+M074,Izmir,Kadin,61,Bilgisayar,24500,1,24500,Nakit,2
+M075,Istanbul,Erkek,30,Ses Sistemleri,3100,1,3100,Kredi Karti,5
+M076,Ankara,Kadin,34,Beyaz Esya,22500,1,22500,E-Cuzdan,4
+M077,Izmir,Erkek,49,Televizyon,14900,1,14900,Nakit,4
+M078,Istanbul,Kadin,22,Tablet,8800,1,8800,Kredi Karti,5
+M079,Ankara,Erkek,58,Telefon,15500,1,15500,E-Cuzdan,3
+M080,Izmir,Kadin,40,Aksesuar,480,2,960,Nakit,4
+M081,Istanbul,Erkek,32,Bilgisayar,21800,1,21800,Kredi Karti,5
+M082,Ankara,Kadin,45,Ses Sistemleri,2200,2,4400,E-Cuzdan,4
+M083,Izmir,Erkek,19,Beyaz Esya,19000,1,19000,Nakit,3
+M084,Istanbul,Kadin,51,Televizyon,15800,1,15800,Kredi Karti,4
+M085,Ankara,Erkek,63,Tablet,7100,1,7100,E-Cuzdan,5
+M086,Izmir,Kadin,28,Telefon,13900,1,13900,Nakit,2
+M087,Istanbul,Erkek,37,Aksesuar,390,3,1170,Kredi Karti,4
+M088,Ankara,Kadin,50,Bilgisayar,26500,1,26500,E-Cuzdan,5
+M089,Izmir,Erkek,24,Ses Sistemleri,1700,2,3400,Nakit,4
+M090,Istanbul,Kadin,41,Beyaz Esya,23800,1,23800,Kredi Karti,3
+M091,Ankara,Erkek,33,Televizyon,14200,1,14200,E-Cuzdan,5
+M092,Izmir,Kadin,56,Tablet,8300,1,8300,Nakit,4
+M093,Istanbul,Erkek,29,Telefon,17200,1,17200,Kredi Karti,4
+M094,Ankara,Kadin,47,Aksesuar,700,2,1400,E-Cuzdan,5
+M095,Izmir,Erkek,60,Bilgisayar,22800,1,22800,Nakit,3
+M096,Istanbul,Kadin,21,Ses Sistemleri,2900,1,2900,Kredi Karti,4
+M097,Ankara,Erkek,35,Beyaz Esya,18200,1,18200,E-Cuzdan,4
+M098,Izmir,Kadin,44,Televizyon,13500,1,13500,Nakit,5
+M099,Istanbul,Erkek,53,Tablet,7600,1,7600,Kredi Karti,2
+M100,Ankara,Kadin,26,Telefon,14800,1,14800,E-Cuzdan,4
+M101,Istanbul,Kadin,34,Aksesuar,520,2,1040,Nakit,5
+M102,Ankara,Erkek,50,Bilgisayar,24200,1,24200,Kredi Karti,4
+M103,Izmir,Kadin,21,Ses Sistemleri,2500,1,2500,E-Cuzdan,4
+M104,Istanbul,Erkek,43,Beyaz Esya,20500,1,20500,E-Cuzdan,3
+M105,Ankara,Erkek,62,Televizyon,16200,1,16200,Kredi Karti,5
+M106,Izmir,Kadin,28,Tablet,8900,1,8900,Nakit,4
+M107,Istanbul,Kadin,57,Telefon,16900,1,16900,E-Cuzdan,4
+M108,Ankara,Erkek,19,Aksesuar,310,4,1240,Kredi Karti,5
+M109,Izmir,Kadin,36,Bilgisayar,23000,1,23000,Nakit,3
+M110,Istanbul,Kadin,48,Ses Sistemleri,1600,2,3200,Kredi Karti,4
+M111,Ankara,Kadin,52,Beyaz Esya,21000,1,21000,E-Cuzdan,4
+M112,Izmir,Erkek,23,Televizyon,12800,1,12800,Nakit,5
+M113,Istanbul,Kadin,39,Tablet,8100,1,8100,E-Cuzdan,4
+M114,Ankara,Erkek,60,Telefon,15800,1,15800,Kredi Karti,2
+M115,Izmir,Kadin,45,Aksesuar,460,3,1380,Nakit,4
+M116,Istanbul,Erkek,27,Bilgisayar,25500,1,25500,Kredi Karti,5
+M117,Ankara,Kadin,33,Ses Sistemleri,3300,1,3300,E-Cuzdan,4
+M118,Izmir,Erkek,56,Beyaz Esya,22200,1,22200,Nakit,3
+M119,Istanbul,Erkek,21,Televizyon,14000,1,14000,E-Cuzdan,5
+M120,Ankara,Kadin,49,Tablet,7000,2,14000,Kredi Karti,4
+M121,Izmir,Erkek,59,Telefon,13200,1,13200,Nakit,4
+M122,Istanbul,Erkek,32,Aksesuar,580,2,1160,E-Cuzdan,5
+M123,Ankara,Kadin,41,Bilgisayar,24000,1,24000,Kredi Karti,4
+M124,Izmir,Kadin,24,Ses Sistemleri,2200,1,2200,Nakit,5
+M125,Istanbul,Erkek,55,Beyaz Esya,23000,1,23000,E-Cuzdan,2
+M126,Ankara,Erkek,37,Televizyon,15200,1,15200,Nakit,4
+M127,Izmir,Kadin,44,Tablet,9200,1,9200,Kredi Karti,4
+M128,Istanbul,Kadin,29,Telefon,16100,1,16100,E-Cuzdan,5
+M129,Ankara,Erkek,51,Aksesuar,410,3,1230,Nakit,3
+M130,Izmir,Kadin,19,Bilgisayar,22100,1,22100,Kredi Karti,4
+M131,Istanbul,Kadin,63,Ses Sistemleri,2700,1,2700,E-Cuzdan,4
+M132,Ankara,Erkek,26,Beyaz Esya,19200,1,19200,Nakit,5
+M133,Izmir,Erkek,35,Televizyon,13900,1,13900,Kredi Karti,4
+M134,Istanbul,Kadin,47,Tablet,8400,1,8400,E-Cuzdan,5
+M135,Ankara,Erkek,58,Telefon,17500,1,17500,Nakit,3
+M136,Izmir,Kadin,30,Aksesuar,620,2,1240,Kredi Karti,4
+M137,Istanbul,Erkek,50,Bilgisayar,23800,1,23800,E-Cuzdan,4
+M138,Ankara,Kadin,22,Ses Sistemleri,1650,2,3300,Nakit,5
+M139,Izmir,Erkek,61,Beyaz Esya,21800,1,21800,Kredi Karti,2
+M140,Istanbul,Kadin,38,Televizyon,14700,1,14700,E-Cuzdan,4
+M141,Ankara,Erkek,25,Tablet,7800,1,7800,Nakit,4
+M142,Izmir,Kadin,43,Telefon,14200,1,14200,Kredi Karti,5
+M143,Istanbul,Erkek,53,Aksesuar,480,2,960,E-Cuzdan,4
+M144,Ankara,Kadin,27,Bilgisayar,24900,1,24900,Nakit,3
+M145,Izmir,Erkek,56,Ses Sistemleri,3400,1,3400,Kredi Karti,4
+M146,Istanbul,Kadin,31,Beyaz Esya,20200,1,20200,E-Cuzdan,5
+M147,Ankara,Erkek,42,Televizyon,15900,1,15900,Nakit,4
+M148,Izmir,Kadin,64,Tablet,8700,1,8700,Kredi Karti,4
+M149,Istanbul,Erkek,19,Telefon,15200,1,15200,E-Cuzdan,5
+M150,Ankara,Kadin,33,Aksesuar,530,2,1060,Nakit,4
+M151,Izmir,Erkek,48,Bilgisayar,25200,1,25200,Kredi Karti,3
+M152,Istanbul,Kadin,57,Ses Sistemleri,2100,2,4200,E-Cuzdan,4
+M153,Ankara,Erkek,24,Beyaz Esya,18900,1,18900,Nakit,5
+M154,Izmir,Kadin,41,Televizyon,13100,1,13100,Kredi Karti,4
+M155,Istanbul,Erkek,59,Tablet,7300,2,14600,E-Cuzdan,2
+M156,Ankara,Kadin,21,Telefon,13700,1,13700,Nakit,4
+M157,Izmir,Erkek,34,Aksesuar,330,4,1320,Kredi Karti,5
+M158,Istanbul,Kadin,50,Bilgisayar,23100,1,23100,E-Cuzdan,4
+M159,Ankara,Erkek,62,Ses Sistemleri,2800,1,2800,Nakit,3
+M160,Izmir,Kadin,26,Beyaz Esya,22600,1,22600,Kredi Karti,4
+M161,Istanbul,Erkek,35,Televizyon,14600,1,14600,E-Cuzdan,5
+M162,Ankara,Kadin,44,Tablet,8600,1,8600,Nakit,4
+M163,Izmir,Erkek,53,Telefon,16400,1,16400,Kredi Karti,4
+M164,Istanbul,Kadin,28,Aksesuar,510,2,1020,E-Cuzdan,5
+M165,Ankara,Erkek,55,Bilgisayar,24600,1,24600,Nakit,3
+M166,Izmir,Kadin,19,Ses Sistemleri,1950,2,3900,Kredi Karti,4
+M167,Istanbul,Erkek,43,Beyaz Esya,21100,1,21100,E-Cuzdan,4
+M168,Ankara,Kadin,36,Televizyon,15300,1,15300,Nakit,5
+M169,Izmir,Erkek,49,Tablet,7700,1,7700,Kredi Karti,4
+M170,Istanbul,Kadin,52,Telefon,17100,1,17100,E-Cuzdan,5
+M171,Ankara,Erkek,23,Aksesuar,440,3,1320,Nakit,4
+M172,Izmir,Kadin,60,Bilgisayar,25800,1,25800,Kredi Karti,2
+M173,Istanbul,Erkek,32,Ses Sistemleri,3200,1,3200,E-Cuzdan,5
+M174,Ankara,Kadin,41,Beyaz Esya,19900,1,19900,Nakit,4
+M175,Izmir,Erkek,59,Televizyon,14100,1,14100,Kredi Karti,4
+M176,Istanbul,Kadin,24,Tablet,9100,1,9100,E-Cuzdan,5
+M177,Ankara,Erkek,46,Telefon,15100,1,15100,Nakit,3
+M178,Izmir,Kadin,29,Aksesuar,670,2,1340,Kredi Karti,4
+M179,Istanbul,Erkek,51,Bilgisayar,22400,1,22400,E-Cuzdan,4
+M180,Ankara,Kadin,37,Ses Sistemleri,2300,2,4600,Nakit,5
+M181,Izmir,Erkek,42,Beyaz Esya,20400,1,20400,Kredi Karti,3
+M182,Istanbul,Kadin,54,Televizyon,16200,1,16200,E-Cuzdan,4
+M183,Ankara,Erkek,19,Tablet,6900,2,13800,Nakit,5
+M184,Izmir,Kadin,63,Telefon,14900,1,14900,Kredi Karti,4
+M185,Istanbul,Erkek,26,Aksesuar,360,4,1440,E-Cuzdan,4
+M186,Ankara,Kadin,35,Bilgisayar,23900,1,23900,Nakit,5
+M187,Izmir,Erkek,47,Ses Sistemleri,3000,1,3000,Kredi Karti,2
+M188,Istanbul,Kadin,60,Beyaz Esya,23500,1,23500,E-Cuzdan,4
+M189,Ankara,Erkek,21,Televizyon,13300,1,13300,Nakit,4
+M190,Izmir,Kadin,50,Tablet,8200,1,8200,Kredi Karti,5
+M191,Istanbul,Erkek,33,Telefon,16300,1,16300,E-Cuzdan,3
+M192,Ankara,Kadin,44,Aksesuar,590,2,1180,Nakit,4
+M193,Izmir,Erkek,56,Bilgisayar,24100,1,24100,Kredi Karti,4
+M194,Istanbul,Kadin,19,Ses Sistemleri,1850,2,3700,E-Cuzdan,5
+M195,Ankara,Erkek,43,Beyaz Esya,21800,1,21800,Nakit,4
+M196,Izmir,Kadin,38,Televizyon,14800,1,14800,Kredi Karti,4
+M197,Istanbul,Erkek,52,Tablet,7800,1,7800,E-Cuzdan,3
+M198,Ankara,Kadin,27,Telefon,14100,1,14100,Nakit,5
+M199,Izmir,Erkek,64,Aksesuar,480,3,1440,Kredi Karti,4
+M200,Istanbul,Kadin,31,Bilgisayar,25600,1,25600,E-Cuzdan,4
+M201,Ankara,Kadin,25,Aksesuar,410,2,820,Kredi Karti,5
+M202,Istanbul,Erkek,44,Bilgisayar,22300,1,22300,Nakit,4
+M203,Izmir,Kadin,33,Telefon,15200,1,15200,E-Cuzdan,4
+M204,Istanbul,Erkek,51,Tablet,8100,1,8100,E-Cuzdan,3
+M205,Ankara,Erkek,20,Aksesuar,320,3,960,Kredi Karti,5
+M206,Izmir,Kadin,62,Beyaz Esya,18500,1,18500,Nakit,4
+M207,Istanbul,Kadin,29,Telefon,12900,2,25800,E-Cuzdan,5
+M208,Ankara,Erkek,36,Ses Sistemleri,2500,1,2500,Kredi Karti,2
+M209,Istanbul,Kadin,43,Televizyon,14900,1,14900,Nakit,4
+M210,Izmir,Kadin,56,Bilgisayar,25200,1,25200,Kredi Karti,4
+M211,Ankara,Kadin,22,Aksesuar,620,2,1240,E-Cuzdan,4
+M212,Istanbul,Erkek,31,Telefon,16500,1,16500,Nakit,5
+M213,Izmir,Kadin,49,Tablet,7600,1,7600,E-Cuzdan,4
+M214,Istanbul,Erkek,64,Beyaz Esya,21500,1,21500,Kredi Karti,2
+M215,Ankara,Kadin,28,Ses Sistemleri,1600,2,3200,Nakit,4
+M216,Izmir,Erkek,39,Televizyon,16900,1,16900,Kredi Karti,5
+M217,Istanbul,Kadin,23,Aksesuar,290,4,1160,E-Cuzdan,4
+M218,Ankara,Erkek,42,Bilgisayar,21200,1,21200,Nakit,3
+M219,Izmir,Erkek,30,Telefon,13500,1,13500,E-Cuzdan,4
+M220,Istanbul,Kadin,34,Tablet,9200,1,9200,Kredi Karti,5
+M221,Ankara,Erkek,53,Beyaz Esya,19900,1,19900,Nakit,3
+M222,Istanbul,Erkek,47,Televizyon,13900,1,13900,E-Cuzdan,4
+M223,Izmir,Kadin,26,Aksesuar,820,1,820,Kredi Karti,5
+M224,Ankara,Kadin,59,Telefon,17200,1,17200,Nakit,4
+M225,Istanbul,Erkek,38,Bilgisayar,23900,1,23900,E-Cuzdan,4
+M226,Izmir,Erkek,20,Ses Sistemleri,3300,1,3300,Nakit,5
+M227,Istanbul,Kadin,61,Beyaz Esya,22500,1,22500,Kredi Karti,4
+M228,Ankara,Kadin,27,Tablet,6900,2,13800,E-Cuzdan,4
+M229,Izmir,Erkek,45,Televizyon,15200,1,15200,Nakit,5
+M230,Istanbul,Kadin,32,Aksesuar,320,3,960,Kredi Karti,3
+M231,Ankara,Kadin,50,Telefon,14200,1,14200,E-Cuzdan,2
+M232,Izmir,Erkek,54,Bilgisayar,24200,1,24200,Nakit,4
+M233,Istanbul,Erkek,24,Ses Sistemleri,1900,2,3800,Kredi Karti,5
+M234,Ankara,Kadin,37,Televizyon,16200,1,16200,E-Cuzdan,4
+M235,Izmir,Erkek,41,Beyaz Esya,17900,1,17900,Nakit,4
+M236,Istanbul,Kadin,22,Tablet,8700,1,8700,Kredi Karti,5
+M237,Ankara,Erkek,58,Telefon,18200,1,18200,E-Cuzdan,3
+M238,Izmir,Kadin,35,Aksesuar,520,2,1040,Nakit,4
+M239,Istanbul,Erkek,48,Bilgisayar,26200,1,26200,Kredi Karti,5
+M240,Ankara,Kadin,29,Ses Sistemleri,2200,1,2200,E-Cuzdan,4
+M241,Izmir,Erkek,63,Beyaz Esya,23200,1,23200,Nakit,2
+M242,Istanbul,Kadin,20,Televizyon,12200,1,12200,Kredi Karti,5
+M243,Ankara,Erkek,44,Tablet,7400,1,7400,E-Cuzdan,4
+M244,Izmir,Kadin,40,Telefon,13700,1,13700,Nakit,3
+M245,Istanbul,Erkek,52,Aksesuar,420,3,1260,Kredi Karti,4
+M246,Ankara,Kadin,25,Bilgisayar,21800,1,21800,E-Cuzdan,5
+M247,Izmir,Erkek,57,Ses Sistemleri,3600,1,3600,Nakit,4
+M248,Istanbul,Kadin,34,Beyaz Esya,24200,1,24200,Kredi Karti,5
+M249,Ankara,Erkek,49,Televizyon,15700,1,15700,E-Cuzdan,3
+M250,Izmir,Kadin,23,Tablet,8100,1,8100,Nakit,4
+M251,Istanbul,Erkek,61,Telefon,19200,1,19200,Kredi Karti,2
+M252,Ankara,Kadin,38,Aksesuar,680,2,1360,E-Cuzdan,5
+M253,Izmir,Erkek,43,Bilgisayar,22800,1,22800,Nakit,4
+M254,Istanbul,Kadin,30,Ses Sistemleri,2900,1,2900,Kredi Karti,4
+M255,Ankara,Erkek,55,Beyaz Esya,18800,1,18800,E-Cuzdan,3
+M256,Izmir,Kadin,32,Televizyon,14200,1,14200,Nakit,5
+M257,Istanbul,Erkek,47,Tablet,8400,1,8400,Kredi Karti,4
+M258,Ankara,Kadin,24,Telefon,12200,2,24400,E-Cuzdan,5
+M259,Izmir,Erkek,60,Aksesuar,390,4,1560,Nakit,3
+M260,Istanbul,Kadin,37,Bilgisayar,27200,1,27200,Kredi Karti,4
+M261,Ankara,Erkek,42,Ses Sistemleri,2000,2,4000,E-Cuzdan,4
+M262,Izmir,Kadin,51,Beyaz Esya,21800,1,21800,Nakit,5
+M263,Istanbul,Erkek,28,Televizyon,13200,1,13200,Kredi Karti,2
+M264,Ankara,Kadin,65,Tablet,9700,1,9700,E-Cuzdan,4
+M265,Izmir,Erkek,20,Telefon,14700,1,14700,Nakit,5
+M266,Istanbul,Kadin,34,Aksesuar,440,2,880,Kredi Karti,4
+M267,Ankara,Erkek,48,Bilgisayar,23200,1,23200,E-Cuzdan,3
+M268,Izmir,Kadin,39,Ses Sistemleri,2700,1,2700,Nakit,4
+M269,Istanbul,Erkek,53,Beyaz Esya,20200,1,20200,Kredi Karti,5
+M270,Ankara,Kadin,22,Televizyon,16700,1,16700,E-Cuzdan,4
+M271,Izmir,Erkek,44,Tablet,7100,2,14200,Nakit,3
+M272,Istanbul,Kadin,56,Telefon,16700,1,16700,Kredi Karti,5
+M273,Ankara,Erkek,27,Aksesuar,570,3,1710,E-Cuzdan,4
+M274,Izmir,Kadin,62,Bilgisayar,24700,1,24700,Nakit,2
+M275,Istanbul,Erkek,31,Ses Sistemleri,3200,1,3200,Kredi Karti,5
+M276,Ankara,Kadin,35,Beyaz Esya,22700,1,22700,E-Cuzdan,4
+M277,Izmir,Erkek,50,Televizyon,15100,1,15100,Nakit,4
+M278,Istanbul,Kadin,23,Tablet,9000,1,9000,Kredi Karti,5
+M279,Ankara,Erkek,59,Telefon,15700,1,15700,E-Cuzdan,3
+M280,Izmir,Kadin,41,Aksesuar,490,2,980,Nakit,4
+M281,Istanbul,Erkek,33,Bilgisayar,22000,1,22000,Kredi Karti,5
+M282,Ankara,Kadin,46,Ses Sistemleri,2300,2,4600,E-Cuzdan,4
+M283,Izmir,Erkek,20,Beyaz Esya,19200,1,19200,Nakit,3
+M284,Istanbul,Kadin,52,Televizyon,16000,1,16000,Kredi Karti,4
+M285,Ankara,Erkek,64,Tablet,7200,1,7200,E-Cuzdan,5
+M286,Izmir,Kadin,29,Telefon,14100,1,14100,Nakit,2
+M287,Istanbul,Erkek,38,Aksesuar,400,3,1200,Kredi Karti,4
+M288,Ankara,Kadin,51,Bilgisayar,26700,1,26700,E-Cuzdan,5
+M289,Izmir,Erkek,25,Ses Sistemleri,1800,2,3600,Nakit,4
+M290,Istanbul,Kadin,42,Beyaz Esya,24000,1,24000,Kredi Karti,3
+M291,Ankara,Erkek,34,Televizyon,14400,1,14400,E-Cuzdan,5
+M292,Izmir,Kadin,57,Tablet,8500,1,8500,Nakit,4
+M293,Istanbul,Erkek,30,Telefon,17400,1,17400,Kredi Karti,4
+M294,Ankara,Kadin,48,Aksesuar,720,2,1440,E-Cuzdan,5
+M295,Izmir,Erkek,61,Bilgisayar,23000,1,23000,Nakit,3
+M296,Istanbul,Kadin,22,Ses Sistemleri,2950,1,2950,Kredi Karti,4
+M297,Ankara,Erkek,36,Beyaz Esya,18400,1,18400,E-Cuzdan,4
+M298,Izmir,Kadin,45,Televizyon,13700,1,13700,Nakit,5
+M299,Istanbul,Erkek,54,Tablet,7700,1,7700,Kredi Karti,2
+M300,Ankara,Kadin,27,Telefon,14900,1,14900,E-Cuzdan,4
